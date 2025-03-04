@@ -16,7 +16,7 @@ function ProgressBar() {
     };
   }, [progress]);
   return (
-    <div className="w-full flex justify-center mt-50 ">
+    <div className="w-full flex justify-center pt-50 ">
     
         <Progress progress={progress} color={"lightgreen"} />
     </div>

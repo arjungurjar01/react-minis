@@ -4,22 +4,26 @@ import CarouselUsingApi from './projects/carouselUsingApi/CarouselUsingApi'
 import HomePage from './pages/HomePage'
 import Layout from './layout/Layout'
 import ProgressBar from './projects/progressBar/ProgressBar'
+import ReactTabs from './projects/react-tabs/ReactTabs'
 
 function App() {
  
 
   return (
     <>
-    {/* <div>Hello</div> */}
-    
+     <div className='  bg-[#171717] w-full h-screen'>
+      
+     <Layout>
     <Routes>
-      <Route path='/' element={<Layout/>} />
+      <Route path='/' element={<HomePage/>} />
       <Route path='/carousel1' element={<CarouselPage/>} />
       <Route path='/carousel2' element={<CarouselUsingApi/>} />
       <Route path='/progressbar' element={<ProgressBar/>} />
-
+      <Route path='/reacttabs' element={<ReactTabs/>}/>
 
     </Routes>
+    </Layout>
+    </div>
     
     
     

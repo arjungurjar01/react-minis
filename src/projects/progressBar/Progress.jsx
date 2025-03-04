@@ -10,7 +10,7 @@ function Progress({progress,color}) {
     }
   return (
     <div className='border overflow-hidden rounded-md w-md  '>
-        <div style={progressColor} className='flex justify-end text-white items-center'>
+        <div style={progressColor} className='flex justify-end  items-center'>
              {`${progress}%`}
         </div>
     </div>

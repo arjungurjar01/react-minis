@@ -14,5 +14,10 @@ export const projectDetails = [
         description : "This is a carousel project",
         routeLinkName:"progressbar"
     },
+    {
+        name : "React Tabs",
+        description : "This is a carousel project",
+        routeLinkName:"reacttabs"
+    },
     
 ]
