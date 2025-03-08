@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import InterSectionObserver from "./intersectionObserver/InterSectionObserver";
-import InfiniteScrollJs from "./infiniteScrollUsingJs/infiniteScrollJs";
+import InfiniteScrollJs from "./infiniteScrollUsingJs/InfiniteScrollJs";
 
 function InfiniteScroll() {
   const [type, setType] = useState(false);
