@@ -24,5 +24,10 @@ export const projectDetails = [
         description : "This is a Accordion menu project using react hook.",
         routeLinkName:"accordion"
     },
+    {
+        name : "Infinite Scroll",
+        description : "This is a Infinite Scroll project using js Dom Api and intersection observer.",
+        routeLinkName:"infinitescroll"
+    },
     
 ]
