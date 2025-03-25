@@ -7,6 +7,7 @@ import ProgressBar from './projects/progressBar/ProgressBar'
 import ReactTabs from './projects/react-tabs/ReactTabs'
 import AccordionPage from './projects/accordion-menu'
 import InfiniteScroll from './projects/infiniteScroll'
+import PaginationPage from './projects/pagination'
 
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
       <Route path='/reacttabs' element={<ReactTabs/>}/>
       <Route path='/accordion' element={<AccordionPage/>} />
       <Route path='/infinitescroll' element={<InfiniteScroll/>} />
+      <Route path='/pagination' element={<PaginationPage/>}/>
     </Routes>
     </Layout>
     </div>

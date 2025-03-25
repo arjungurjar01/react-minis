@@ -5,3 +5,20 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+
+button{
+    background-color: rgba(39, 41, 34, 0.9);
+    border: 1px solid #fff;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 2px solid black;
+}  
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  border: 2px solid black;
+  border-radius: 4px;
+}

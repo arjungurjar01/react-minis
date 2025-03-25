@@ -29,5 +29,10 @@ export const projectDetails = [
         description : "This is a Infinite Scroll project using js Dom Api and intersection observer.",
         routeLinkName:"infinitescroll"
     },
+    {
+        name : "Pagination",
+        description : "This is a pagination project.",
+        routeLinkName:"pagination"
+    },
     
 ]
